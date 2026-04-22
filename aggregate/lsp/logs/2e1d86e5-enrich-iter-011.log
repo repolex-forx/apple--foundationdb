@@ -1,0 +1,16 @@
+[2026-04-22T04:39:53Z] === ENRICH ITERATION 11 START | repo=apple/foundationdb sha=2e1d86e5 ===
+[2026-04-22T04:39:53Z] [iter=11] PHASE START: enrich repo=apple/foundationdb sha=2e1d86e5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/2e1d86e5-enrich-iter-011.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/2e1d86e5e67da6e3c613ffa390c24d4d5daa549b.nq.gz
+[2026-04-22T04:39:53Z] [iter=11] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-22T04:46:06Z] [iter=11] AST store loaded triples=29407173 load_secs=360 mem_mb=1133 MB
+[2026-04-22T04:46:06Z] [iter=11] Step 2: Finding LSP targets mem_mb=1133 MB
+[2026-04-22T04:47:20Z] [iter=11] LSP targets found call_sites=280008 imports=8829 extends=1386 implements=0 secs=73
+[2026-04-22T04:47:22Z] [iter=11] Loaded checkpoint partial graph triples=44475
+[2026-04-22T04:48:19Z] [iter=11] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1133 MB
+[2026-04-22T04:51:25Z] [iter=11] Position index built positions=1849792 nodes_with_types=2323387 secs=186 mem_mb=3994 MB
+[2026-04-22T04:51:25Z] [iter=11] Step 3: Starting LSP resolution mem_mb=3994 MB already_completed_types=[] already_completed_files=5
+[2026-04-22T04:51:25Z] [iter=11] Resolving target type target_type=call_site count=280008
+[2026-04-22T04:51:28Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=11.6 files_done=0 resolved=0 errors=0 current=contrib/sqlite/sqlite3.amalgamation.c
+[2026-04-22T08:40:51Z] [iter=11] CHECKPOINT TRIGGERED elapsed_min=241.0 files_completed=5 new_files_this_iter=0 mem_mb=4078 MB
+[2026-04-22T08:40:51Z] [iter=11] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/2e1d86e5e67da6e3c613ffa390c24d4d5daa549b.nq.gz triples=44475
+[2026-04-22T08:40:51Z] [iter=11] Checkpoint written, exiting with code 7
+[2026-04-22T08:40:51Z] [iter=11] PHASE END: enrich (checkpointed) elapsed_s=14457 elapsed_min=241.0 files_completed=5
