@@ -13,13 +13,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/2e1d86e5e67da6e3c613ffa390c24d4d5daa549b.nq.gz",
     "call_sites": 280008,
     "import_statements": 8829,
-    "call_targets_resolved": 675,
+    "call_targets_resolved": 679,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 24247,
+    "errors": 25659,
     "extends_clauses": 1386,
     "implements_clauses": 0,
     "import_modules_denormalized": 9946,
@@ -27,5 +27,5 @@
     "extends_class_denormalized": 184,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14453
+  "elapsed_seconds": 14433
 }
