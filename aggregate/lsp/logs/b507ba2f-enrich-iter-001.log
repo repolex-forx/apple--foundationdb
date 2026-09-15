@@ -1,0 +1,20 @@
+[2026-09-15T19:18:10Z] === ENRICH ITERATION 1 START | repo=apple/foundationdb sha=b507ba2f ===
+[2026-09-15T19:18:10Z] [iter=1] PHASE START: enrich repo=apple/foundationdb sha=b507ba2f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b507ba2f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b507ba2f1f125a0af73b2a8b97074e15dad1db25.nq.gz
+[2026-09-15T19:18:10Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-09-15T19:23:59Z] [iter=1] AST store loaded triples=27809369 load_secs=337 mem_mb=1142 MB
+[2026-09-15T19:23:59Z] [iter=1] Step 2: Finding LSP targets mem_mb=1142 MB
+[2026-09-15T19:25:11Z] [iter=1] LSP targets found call_sites=276505 imports=6238 extends=1366 implements=0 secs=72
+[2026-09-15T19:26:03Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1142 MB
+[2026-09-15T19:28:41Z] [iter=1] Position index built positions=1829903 nodes_with_types=2297810 secs=158 mem_mb=3947 MB
+[2026-09-15T19:28:41Z] [iter=1] Step 3: Starting LSP resolution mem_mb=3947 MB already_completed_types=[] already_completed_files=0
+[2026-09-15T19:28:41Z] [iter=1] Resolving target type target_type=call_site count=276505
+[2026-09-15T19:28:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=0 resolved=0 errors=0 current=bindings/go/godoc-resources/jquery.js
+[2026-09-15T20:25:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.3 files_done=1 resolved=455 errors=280 current=bindings/go/godoc-resources/jquery.treeview.js
+[2026-09-15T20:43:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.6 files_done=2 resolved=457 errors=370 current=bindings/go/godoc-resources/jquery.treeview.edit.js
+[2026-09-15T20:52:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=94.8 files_done=3 resolved=457 errors=415 current=bindings/go/godoc-resources/godocs.js
+[2026-09-15T21:14:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.0 files_done=4 resolved=471 errors=520 current=fdbclient/ManagementAPI.actor.cpp
+[2026-09-15T21:41:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=143.1 files_done=5 resolved=554 errors=655 current=fdbclient/TaskBucket.actor.cpp
+[2026-09-15T23:18:16Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=5 new_files_this_iter=5 mem_mb=3963 MB
+[2026-09-15T23:18:16Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/b507ba2f1f125a0af73b2a8b97074e15dad1db25.nq.gz triples=26949
+[2026-09-15T23:18:16Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-09-15T23:18:16Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14406 elapsed_min=240.1 files_completed=5
