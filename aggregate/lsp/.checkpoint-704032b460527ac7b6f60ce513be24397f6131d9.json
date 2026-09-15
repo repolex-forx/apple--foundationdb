@@ -1,0 +1,27 @@
+{
+  "commit_sha": "704032b460527ac7b6f60ce513be24397f6131d9",
+  "completed_files": [
+    "fdbclient/BackupContainerFileSystem.actor.cpp"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/apple/foundationdb/lsp/704032b460527ac7b6f60ce513be24397f6131d9",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/704032b460527ac7b6f60ce513be24397f6131d9.nq.gz",
+    "call_sites": 280009,
+    "import_statements": 8798,
+    "call_targets_resolved": 6,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 1083,
+    "extends_clauses": 1386,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 9915,
+    "import_symbols_denormalized": 957,
+    "extends_class_denormalized": 184,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14411
+}
