@@ -1,0 +1,23 @@
+[2026-09-15T07:37:57Z] === ENRICH ITERATION 1 START | repo=apple/foundationdb sha=4e413a15 ===
+[2026-09-15T07:37:57Z] [iter=1] PHASE START: enrich repo=apple/foundationdb sha=4e413a15 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4e413a15-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4e413a152430827973402384409d7409587163ed.nq.gz
+[2026-09-15T07:37:57Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-15T07:44:17Z] [iter=1] AST store loaded triples=29364807 load_secs=368 mem_mb=1139 MB
+[2026-09-15T07:44:17Z] [iter=1] Step 2: Finding LSP targets mem_mb=1139 MB
+[2026-09-15T07:45:27Z] [iter=1] LSP targets found call_sites=280009 imports=8786 extends=1386 implements=0 secs=70
+[2026-09-15T07:46:20Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1139 MB
+[2026-09-15T07:49:43Z] [iter=1] Position index built positions=1849820 nodes_with_types=2323417 secs=203 mem_mb=3854 MB
+[2026-09-15T07:49:43Z] [iter=1] Step 3: Starting LSP resolution mem_mb=3854 MB already_completed_types=[] already_completed_files=0
+[2026-09-15T07:49:43Z] [iter=1] Resolving target type target_type=call_site count=280009
+[2026-09-15T07:50:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.1 files_done=0 resolved=0 errors=0 current=bindings/java/src/integration/com/apple/foundationdb/CycleMultiClientIntegrationTest.java
+[2026-09-15T07:55:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.7 files_done=1 resolved=15 errors=26 current=recipes/java-recipes/MicroSpatialTest.java
+[2026-09-15T08:04:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.2 files_done=2 resolved=20 errors=67 current=bindings/java/src/test/com/apple/foundationdb/test/ParallelRandomScan.java
+[2026-09-15T08:09:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.5 files_done=3 resolved=32 errors=92 current=bindings/java/src/test/com/apple/foundationdb/test/StackTester.java
+[2026-09-15T09:25:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=107.6 files_done=4 resolved=63 errors=457 current=bindings/java/src/test/com/apple/foundationdb/test/TupleTest.java
+[2026-09-15T09:29:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=111.1 files_done=5 resolved=86 errors=474 current=bindings/java/src/main/com/apple/foundationdb/directory/DirectoryLayer.java
+[2026-09-15T10:43:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=185.2 files_done=6 resolved=105 errors=829 current=bindings/java/src/test/com/apple/foundationdb/test/PerformanceTester.java
+[2026-09-15T11:14:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=216.4 files_done=7 resolved=170 errors=979 current=bindings/java/src/junit/com/apple/foundationdb/tuple/TupleComparisonTest.java
+[2026-09-15T11:33:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=235.3 files_done=8 resolved=201 errors=1069 current=bindings/java/src/junit/com/apple/foundationdb/RangeQueryTest.java
+[2026-09-15T11:38:38Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.7 files_completed=8 new_files_this_iter=8 mem_mb=3890 MB
+[2026-09-15T11:38:38Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/4e413a152430827973402384409d7409587163ed.nq.gz triples=26893
+[2026-09-15T11:38:38Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-09-15T11:38:38Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14441 elapsed_min=240.7 files_completed=8

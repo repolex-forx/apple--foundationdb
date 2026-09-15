@@ -1,0 +1,34 @@
+{
+  "commit_sha": "4e413a152430827973402384409d7409587163ed",
+  "completed_files": [
+    "bindings/java/src/integration/com/apple/foundationdb/CycleMultiClientIntegrationTest.java",
+    "bindings/java/src/junit/com/apple/foundationdb/tuple/TupleComparisonTest.java",
+    "bindings/java/src/main/com/apple/foundationdb/directory/DirectoryLayer.java",
+    "bindings/java/src/test/com/apple/foundationdb/test/ParallelRandomScan.java",
+    "bindings/java/src/test/com/apple/foundationdb/test/PerformanceTester.java",
+    "bindings/java/src/test/com/apple/foundationdb/test/StackTester.java",
+    "bindings/java/src/test/com/apple/foundationdb/test/TupleTest.java",
+    "recipes/java-recipes/MicroSpatialTest.java"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/apple/foundationdb/lsp/4e413a152430827973402384409d7409587163ed",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4e413a152430827973402384409d7409587163ed.nq.gz",
+    "call_sites": 280009,
+    "import_statements": 8786,
+    "call_targets_resolved": 201,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 1095,
+    "extends_clauses": 1386,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 9903,
+    "import_symbols_denormalized": 957,
+    "extends_class_denormalized": 184,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14440
+}
