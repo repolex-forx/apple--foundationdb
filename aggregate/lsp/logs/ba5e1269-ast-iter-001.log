@@ -1,0 +1,7 @@
+[2026-09-15T15:04:09Z] === AST ITERATION 1 START | repo=apple/foundationdb sha=ba5e1269 ===
+[2026-09-15T15:04:09Z] [iter=1] PHASE START: ast repo=apple/foundationdb sha=ba5e1269
+[2026-09-15T15:04:09Z] [iter=1] Building AST aggregate chunks
+[2026-09-15T15:48:10Z] [iter=1] AST chunks built count=6 triples=28570358
+[2026-09-15T15:48:10Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/ba5e1269dfeba689c28cb253592e40b2d2693a9f/.complete
+[2026-09-15T15:48:10Z] [iter=1] PHASE END: ast elapsed_s=2641 elapsed_min=44.0
+[2026-09-15T15:48:10Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
