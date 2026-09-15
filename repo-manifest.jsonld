@@ -1899,8 +1899,9 @@
     {
       "@id": "https://repolex.ai/r/apple/foundationdb/commit/84cf11da9fe2f320abf35aaec0e49ed836d17cd1",
       "git:hexsha": "84cf11da9fe2f320abf35aaec0e49ed836d17cd1",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "snowflake-71.3.2-rc2"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "snowflake-71.3.2-rc2",
+      "repolex:parsedAt": "2026-09-15T13:32:06.091299+00:00"
     },
     {
       "@id": "https://repolex.ai/r/apple/foundationdb/commit/f92c52b97365970fbd7f8231c3b4d87912a77d37",
