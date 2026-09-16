@@ -5,7 +5,11 @@
     "bindings/go/godoc-resources/jquery.js",
     "bindings/go/godoc-resources/jquery.treeview.edit.js",
     "bindings/go/godoc-resources/jquery.treeview.js",
-    "fdbclient/ManagementAPI.actor.cpp"
+    "fdbclient/ManagementAPI.actor.cpp",
+    "fdbclient/TaskBucket.actor.cpp",
+    "fdbserver/CommitProxyServer.actor.cpp",
+    "fdbserver/LocalConfiguration.actor.cpp",
+    "flow/include/flow/TDMetric.actor.h"
   ],
   "completed_types": [],
   "stats": {
@@ -13,13 +17,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/b507ba2f1f125a0af73b2a8b97074e15dad1db25.nq.gz",
     "call_sites": 276505,
     "import_statements": 6238,
-    "call_targets_resolved": 554,
+    "call_targets_resolved": 648,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 1138,
+    "errors": 3441,
     "extends_clauses": 1366,
     "implements_clauses": 0,
     "import_modules_denormalized": 7343,
@@ -27,5 +31,5 @@
     "extends_class_denormalized": 181,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14405
+  "elapsed_seconds": 14421
 }
